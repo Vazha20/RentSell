@@ -23,9 +23,10 @@ body {
     color: black;
 }
 .searchBar{
-    width: 1000px;
+    width: 1040px;
     height: 70px;
     border: 2px solid #5ce1e6;
+    padding: 0px 12px;
     border-radius: 20px;
     
 }
@@ -129,4 +130,9 @@ h3{
 
 .dropdown:hover .dropbtn {
     background-color: #ddd;
+}
+.vr{
+    height: 40px;
+    margin-top: 15px;
+    color: black;
 }
