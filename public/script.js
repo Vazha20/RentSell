@@ -20,6 +20,11 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const dropdownButton = document.querySelector('.dropdown-button');
     const dropdownMenu = document.querySelector('.dropdown-menu');
