@@ -262,6 +262,10 @@ h3{
 .dropdown-menu a:hover {
     background-color: #f0f0f0;
 }
+
 .Pointer{
     cursor: pointer;
+}
+.dropdown-menu.show {
+    display: block; /* Show dropdown menu when 'show' class is added */
 }
