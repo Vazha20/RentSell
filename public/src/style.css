@@ -45,7 +45,7 @@ body {
     border-radius: 20px;
 }
 .bgColor{
-    background-color: rgb(223, 220, 220);
+    background-color: rgb(255, 247, 247);
     
 }
 .btn-secondery{
@@ -62,14 +62,15 @@ body {
 h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.response-only {
-    display: none;
-}
+
 .padding-text{
     padding: 20px 0px 10px;
 }
 .desktop-only {
     display: block;
+}
+.response-only {
+    display: none;
 }
 @media only screen and (max-width: 992px) {
     .desktop-only {
@@ -77,6 +78,9 @@ h3{
     }
     .response-only {
         display: block;
+    }
+    .marginTop{
+        margin-top: 60px;
     }
 }
 .language-selector {

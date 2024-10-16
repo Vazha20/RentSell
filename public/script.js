@@ -3,14 +3,14 @@ import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.6.0/firebase-
 import { getAuth, onAuthStateChanged} from "https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAJFIHuL9nUYQdtrpjtimOY3hAWGcT2k9A",
-    authDomain: "beowner00.firebaseapp.com",
-    projectId: "beowner00",
-    storageBucket: "beowner00.appspot.com",
-    messagingSenderId: "240473062983",
-    appId: "1:240473062983:web:847181cad7595daab0bb62",
-    measurementId: "G-MZCCKLW1WK"
-};
+    apiKey: "AIzaSyBwnGkes5ivJVHT-gLOY7lvtSDhzVuVhrE",
+    authDomain: "beowner000.firebaseapp.com",
+    projectId: "beowner000",
+    storageBucket: "beowner000.appspot.com",
+    messagingSenderId: "1084826671741",
+    appId: "1:1084826671741:web:870d6a03b6887b12376f14",
+    measurementId: "G-WHDZCLSNS9"
+  };
 
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
